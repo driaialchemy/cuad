@@ -1,0 +1,61 @@
+{
+  "Governing Law": {
+    "standard": "Governing law must be explicitly stated and match operating jurisdiction",
+    "risk_if_missing": "critical",
+    "risk_if_ambiguous": "high",
+    "recommendation_if_missing": "Require explicit governing law clause before signing"
+  },
+  "Termination For Convenience": {
+    "standard": "Either party should retain right to terminate for convenience with 30+ days notice",
+    "risk_if_missing": "high",
+    "risk_if_ambiguous": "medium",
+    "recommendation_if_missing": "Negotiate termination for convenience clause with minimum 30-day notice"
+  },
+  "Cap On Liability": {
+    "standard": "Liability should be capped at minimum 12 months contract value",
+    "risk_if_missing": "critical",
+    "risk_if_ambiguous": "high",
+    "recommendation_if_missing": "Negotiate liability cap — uncapped exposure is unacceptable"
+  },
+  "Uncapped Liability": {
+    "standard": "Uncapped liability clauses should never be accepted",
+    "risk_if_present": "critical",
+    "recommendation_if_present": "Reject or renegotiate — uncapped liability is critical risk"
+  },
+  "IP Ownership Assignment": {
+    "standard": "IP created under contract must be assigned to commissioning party",
+    "risk_if_missing": "critical",
+    "risk_if_ambiguous": "critical",
+    "recommendation_if_missing": "Add explicit IP assignment clause before signing"
+  },
+  "Auto-Renewal": {
+    "standard": "Auto-renewal cancellation notice should not exceed 60 days",
+    "risk_if_missing": "low",
+    "risk_if_ambiguous": "medium",
+    "recommendation_if_missing": "Clarify renewal terms and cancellation notice period"
+  },
+  "Non-Compete": {
+    "standard": "Non-compete scope and duration must be reasonable and clearly defined",
+    "risk_if_missing": "low",
+    "risk_if_ambiguous": "high",
+    "recommendation_if_missing": "Define non-compete scope explicitly or remove clause"
+  },
+  "Audit Rights": {
+    "standard": "Audit rights should be retained by both parties",
+    "risk_if_missing": "medium",
+    "risk_if_ambiguous": "medium",
+    "recommendation_if_missing": "Add mutual audit rights clause"
+  },
+  "Insurance": {
+    "standard": "Minimum insurance requirements should be specified",
+    "risk_if_missing": "medium",
+    "risk_if_ambiguous": "low",
+    "recommendation_if_missing": "Specify minimum insurance coverage requirements"
+  },
+  "Exclusivity": {
+    "standard": "Exclusivity terms must be clearly scoped by geography, product, and duration",
+    "risk_if_missing": "low",
+    "risk_if_ambiguous": "high",
+    "recommendation_if_missing": "Define exclusivity scope precisely or remove clause"
+  }
+}

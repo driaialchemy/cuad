@@ -1,0 +1,8 @@
+# CUAD Contract Review Pipeline — Cursor Rules
+
+- Explicit type hints on every function
+- async/await only — no blocking calls (use asyncio.to_thread for sync I/O)
+- Pydantic models for all data contracts between agents
+- No global mutable state
+- All file I/O in try/except with errors appended to state.errors
+- Never load the entire data.zip into memory at once — stream one contract at a time
