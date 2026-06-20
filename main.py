@@ -100,6 +100,12 @@ async def _run(contract_title: str) -> None:
         final_report = final_state.shared_data.get("final_report", {})
         if final_report:
             _print_final_report(final_report)
+        from governance_logger import log_success
+        log_success("contract-risk-review-pipeline", "Agent completed successfully", {
+            "session_id": session_id,
+            "contract_title": contract_title,
+            "result": final_state.shared_data.get("final_report", {})
+        })
 
     log_path = await _save_state_log(final_state)
     print(f"Execution log written to: {EXECUTION_LOG_PATH}")
